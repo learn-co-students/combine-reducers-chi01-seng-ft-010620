@@ -21,4 +21,4 @@ const mapStateToProps = state => {
   return { authors: state.authors }
 }
 
-export default connect(mapStateToProps)(Authors);
+export default connect(mapStateToProps)(Authors);//
