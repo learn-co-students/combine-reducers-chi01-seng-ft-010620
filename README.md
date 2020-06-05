@@ -66,6 +66,7 @@ export default function bookApp(
       return {
         ...state,
         authors: [...state.authors],
+        // This would come in handy for storing all habits. and dallies.
         books: [...state.books, action.book]
       };
 
